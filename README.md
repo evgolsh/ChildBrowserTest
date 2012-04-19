@@ -1,0 +1,1 @@
+Sample Project of using PhoneGap 1.6 and ChildBrowser plugin
