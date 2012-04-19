@@ -38,6 +38,11 @@
 		BE6CE8BA1540D0EB000B716E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6CE8B91540D0EB000B716E /* MainViewController.m */; };
 		BE6CE8BC1540D0EB000B716E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE6CE8BB1540D0EB000B716E /* MainViewController.xib */; };
 		BE6CE8C01540D0EB000B716E /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = BE6CE8BF1540D0EB000B716E /* verify.sh */; };
+		BE6CE8C71540D143000B716E /* www in Resources */ = {isa = PBXBuildFile; fileRef = BE6CE8C61540D143000B716E /* www */; };
+		BE6CE8CE1540D1D4000B716E /* ChildBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE6CE8C81540D1D4000B716E /* ChildBrowser.bundle */; };
+		BE6CE8CF1540D1D4000B716E /* ChildBrowserCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6CE8CA1540D1D4000B716E /* ChildBrowserCommand.m */; };
+		BE6CE8D01540D1D4000B716E /* ChildBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6CE8CC1540D1D4000B716E /* ChildBrowserViewController.m */; };
+		BE6CE8D11540D1D4000B716E /* ChildBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE6CE8CD1540D1D4000B716E /* ChildBrowserViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,10 +60,10 @@
 		BE6CE8821540D0EB000B716E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		BE6CE8841540D0EB000B716E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		BE6CE8861540D0EB000B716E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		BE6CE88A1540D0EB000B716E /* ChildBrowserTest-Info.plist */ = {isa = PBXFileReference; path = "ChildBrowserTest-Info.plist"; sourceTree = "<group>"; };
+		BE6CE88A1540D0EB000B716E /* ChildBrowserTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChildBrowserTest-Info.plist"; sourceTree = "<group>"; };
 		BE6CE88C1540D0EB000B716E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE6CE88E1540D0EB000B716E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BE6CE8901540D0EB000B716E /* ChildBrowserTest-Prefix.pch */ = {isa = PBXFileReference; path = "ChildBrowserTest-Prefix.pch"; sourceTree = "<group>"; };
+		BE6CE8901540D0EB000B716E /* ChildBrowserTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChildBrowserTest-Prefix.pch"; sourceTree = "<group>"; };
 		BE6CE8911540D0EB000B716E /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		BE6CE8961540D0EB000B716E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BE6CE89A1540D0EB000B716E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -71,13 +76,20 @@
 		BE6CE8AE1540D0EB000B716E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		BE6CE8B01540D0EB000B716E /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		BE6CE8B21540D0EB000B716E /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		BE6CE8B51540D0EB000B716E /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		BE6CE8B51540D0EB000B716E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		BE6CE8B61540D0EB000B716E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		BE6CE8B81540D0EB000B716E /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		BE6CE8B81540D0EB000B716E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		BE6CE8B91540D0EB000B716E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		BE6CE8BB1540D0EB000B716E /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		BE6CE8BE1540D0EB000B716E /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		BE6CE8BE1540D0EB000B716E /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		BE6CE8BF1540D0EB000B716E /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		BE6CE8C61540D143000B716E /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		BE6CE8C81540D1D4000B716E /* ChildBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ChildBrowser.bundle; sourceTree = "<group>"; };
+		BE6CE8C91540D1D4000B716E /* ChildBrowserCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildBrowserCommand.h; sourceTree = "<group>"; };
+		BE6CE8CA1540D1D4000B716E /* ChildBrowserCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildBrowserCommand.m; sourceTree = "<group>"; };
+		BE6CE8CB1540D1D4000B716E /* ChildBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildBrowserViewController.h; sourceTree = "<group>"; };
+		BE6CE8CC1540D1D4000B716E /* ChildBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildBrowserViewController.m; sourceTree = "<group>"; };
+		BE6CE8CD1540D1D4000B716E /* ChildBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildBrowserViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +127,7 @@
 		BE6CE85C1540D0EB000B716E = {
 			isa = PBXGroup;
 			children = (
+				BE6CE8C61540D143000B716E /* www */,
 				BE6CE8881540D0EB000B716E /* ChildBrowserTest */,
 				BE6CE86D1540D0EB000B716E /* Frameworks */,
 				BE6CE86B1540D0EB000B716E /* Products */,
@@ -254,6 +267,12 @@
 		BE6CE8BD1540D0EB000B716E /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				BE6CE8C81540D1D4000B716E /* ChildBrowser.bundle */,
+				BE6CE8C91540D1D4000B716E /* ChildBrowserCommand.h */,
+				BE6CE8CA1540D1D4000B716E /* ChildBrowserCommand.m */,
+				BE6CE8CB1540D1D4000B716E /* ChildBrowserViewController.h */,
+				BE6CE8CC1540D1D4000B716E /* ChildBrowserViewController.m */,
+				BE6CE8CD1540D1D4000B716E /* ChildBrowserViewController.xib */,
 				BE6CE8BE1540D0EB000B716E /* README */,
 			);
 			name = Plugins;
@@ -330,6 +349,9 @@
 				BE6CE8B31540D0EB000B716E /* Cordova.plist in Resources */,
 				BE6CE8BC1540D0EB000B716E /* MainViewController.xib in Resources */,
 				BE6CE8C01540D0EB000B716E /* verify.sh in Resources */,
+				BE6CE8C71540D143000B716E /* www in Resources */,
+				BE6CE8CE1540D1D4000B716E /* ChildBrowser.bundle in Resources */,
+				BE6CE8D11540D1D4000B716E /* ChildBrowserViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +381,8 @@
 				BE6CE88F1540D0EB000B716E /* main.m in Sources */,
 				BE6CE8B71540D0EB000B716E /* AppDelegate.m in Sources */,
 				BE6CE8BA1540D0EB000B716E /* MainViewController.m in Sources */,
+				BE6CE8CF1540D1D4000B716E /* ChildBrowserCommand.m in Sources */,
+				BE6CE8D01540D1D4000B716E /* ChildBrowserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
