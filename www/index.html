@@ -57,9 +57,9 @@
             client_browser = ChildBrowser.install(); 
             
             if(client_browser != null) { 
-                client_browser._onOpenExternal = function(){console.log("open external");};
-                client_browser._onCloseBrowser = function(){console.log("close browser");};
-                client_browser._onLocationChange = function(){console.log("loc changed");};
+                client_browser.onOpenExternal = function(){console.log("open external");};
+                client_browser.onCloseBrowser = function(){console.log("close browser");};
+                client_browser.onLocationChange = function(){console.log("loc changed");};
                 
                 console.log("will show");
                 
